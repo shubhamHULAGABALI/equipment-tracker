@@ -17,7 +17,7 @@ The main focus of this project is functionality, clean code, and understanding o
 - Allows users to delete equipment
 - Includes basic form validation
 - Saves data so it is not lost on refresh
-- Includes a simple search feature (bonus)
+- Includes a simple search feature 
 
 ---
 
