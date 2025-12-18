@@ -36,28 +36,9 @@ The main focus of this project is functionality, clean code, and understanding o
 ### Database
 - SQLite (used for simplicity and quick setup)
 
----
 
-## Project Structure
 
-equipment-tracker/
-│
-├── backend/
-│ ├── server.js
-│ ├── db.js
-│ ├── equipment.db
-│ ├── package.json
-│ └── package-lock.json
-│
-├── frontend/
-│ ├── src/
-│ │ ├── App.js
-│ │ └── index.js
-│ ├── public/
-│ ├── package.json
-│ └── package-lock.json
-│
-└── README.md
+
 
 ---
 
@@ -80,9 +61,9 @@ equipment-tracker/
 ---
 
 ### Backend Setup
-cd backend
-npm install
-node server.js
+- cd backend
+- npm install
+- node server.js
 
 The backend will run at:
 http://localhost:5000
@@ -90,27 +71,27 @@ http://localhost:5000
 ---
 ### Frontend Setup
 
-cd frontend
-npm install
-npm start
+- cd frontend
+- npm install
+- npm start
 
 The frontend will run at:
 http://localhost:3000
-
+---
 ### Assumptions
 
-Authentication is not required
-Single-user usage is assumed
-SQLite is used to keep setup simple
-Basic UI is sufficient as per assignment instructions
-
+- Authentication is not required
+- Single-user usage is assumed
+- SQLite is used to keep setup simple
+- Basic UI is sufficient as per assignment instructions
+---
 ### What I Would Improve With More Time
 
-Add pagination and sorting
-Improve UI and make it mobile responsive
-Add better error handling
-Add authentication and authorization
-
+- Add pagination and sorting
+- Improve UI and make it mobile responsive
+- Add better error handling
+- Add authentication and authorization
+---
 ### Conclusion
 
 This project meets all the requirements mentioned in the take-home assignment.
